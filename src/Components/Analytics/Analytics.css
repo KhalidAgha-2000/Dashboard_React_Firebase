@@ -1,0 +1,21 @@
+.analytics {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.analytics header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bold;
+}
+
+.analytics header .followers {
+    color: #00464e;
+}
+
+.analytics header .earnings {
+    color: #810551;
+}
